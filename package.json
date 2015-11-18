@@ -1,0 +1,25 @@
+{
+  "name": "olympus-football",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-chart.js": "^0.8.4",
+    "angular-file-upload": "^2.1.4",
+    "angular-ui-grid": "^3.0.7",
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-generator": "^4.13.1",
+    "express-session": "^1.11.3",
+    "mongodb": "^2.0.45",
+    "mongoose": "^4.1.11",
+    "node": "0.0.0",
+    "passport": "^0.3.0"
+  }
+}

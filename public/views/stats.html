@@ -1,0 +1,84 @@
+<div class="titleContainer">
+  <a href="#/gallery" class="titleText">Utah Utes</a>
+  <a class="titleText">|</a>
+  <a href="#/home" class="titleText">Roster</a>
+  <a class="titleText">|</a>
+  <a href="#/schedule" class="titleText">Schedule</a>
+  <a class="titleText">|</a>
+  <a href="#/stats" class="titleText">Stats</a>
+  <a class="titleText">|</a>
+  <a href="#/photos" class="titleText">Photos</a>
+</div>
+
+
+<div class="chartWrapper">
+  <div class="dualBar" id="dual-graph">FusionCharts will render here</div>
+  <div id="chart-container">FusionCharts will render here</div>
+
+  <div>
+    <div ui-grid="{ data: users }" class="myGrid">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<form class="demoStat" ng-submit="addUser(person)">
+  <div class="demoStat">
+  First name: <input type="text" name="fname" ng-model="person.firstName"><br>
+  Last name: <input type="text" name="lname" ng-model="person.lastName"><br>
+  rushingYards: <input type="text" name="lname" ng-model="person.rushingYards"><br>
+  passingYards: <input type="text" name="lname" ng-model="person.passingYards"><br>
+  receivingYards: <input type="text" name="lname" ng-model="person.receivingYards"><br>
+  allPurposeYards: <input type="text" name="lname" ng-model="person.allPurposeYards"><br>
+  touchdowns: <input type="text" name="lname" ng-model="person.touchdowns"><br>
+  tackles: <input type="text" name="lname" ng-model="person.tackles"><br>
+  sacks: <input type="text" name="lname" ng-model="person.sacks"><br>
+  interceptions: <input type="text" name="lname" ng-model="person.interceptions"><br>
+  <br>
+</div>
+<button>Submit</button>
+</form>
+<!-- <div ng-repeat="user in users">
+  <p>
+    {{user.firstName}}
+  </p>
+  <p>
+  {{user.lastName}}
+  </p>
+</div> -->
+
+<!-- <div class="newPlayerContainer">
+<form  class="form-style-7">
+<ul>
+<li>
+    <label for="name">Name</label>
+    <input type="text" name="name" maxlength="100">
+    <span>Enter your full name here</span>
+</li>
+<li>
+    <label for="email">Email</label>
+    <input type="email" name="email" maxlength="100">
+    <span>Enter a valid email address</span>
+</li>
+<li>
+    <label for="url">Website</label>
+    <input type="url" name="url" maxlength="100">
+    <span>Your website address (eg: http://www.google.com)</span>
+</li>
+<li>
+    <label for="bio">About You</label>
+    <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+    <span>Say something about yourself</span>
+</li>
+<li>
+    <input type="submit" value="Send This" >
+</li>
+</ul>
+</form>
+</div> -->

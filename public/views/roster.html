@@ -1,0 +1,44 @@
+<div ng-controller="rosterController">
+
+<div class="titleContainer">
+   <a href="#/gallery"class="titleText">Utah Utes</a>
+   <a class="titleText">|</a>
+   <a href="#/home"class="titleText">Roster</a>
+   <a class="titleText">|</a>
+   <a href="#/schedule"class="titleText">Schedule</a>
+   <a class="titleText">|</a>
+   <a href="#/stats"class="titleText">Stats</a>
+   <a class="titleText">|</a>
+   <a href="#/photos"class="titleText">Photos</a>
+</div>
+<div class="rosterPageWrapper">
+
+<div class="sideRosterBar">
+  <div class="sideRosterTextContainer">
+    <div class="sideBarStyle">Offense</div>
+    <div class="sideBarStyle">Defense</div>
+    <div class="sideBarStyle">Special Teams</div>
+    <div class="sideBarStyle">Coaches</div>
+
+  </div>
+</div>
+
+
+<div class="rosterContainer">
+    <div ng-repeat="player in players">
+          <div class="playerContainer">
+              <img class="profile-pic" ng-src={{player.image}}>
+                <div class="playerDescription">
+                  <div class="bioStyle">
+                  <div class="numberStyle">#{{player.number}}</div>
+                  <div>{{player.firstName}} {{player.lastName}}</div>
+                  <div class="bioFontSize">{{player.class}}</div>
+                  <div class="bioFontSize">{{player.position}}</div>
+                  <div class="bioFontSize">{{player.homeTown}}</div>
+
+                </div>
+          </div>
+    </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,220 @@
+.linkContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -418px;
+}
+.fontTest {
+  flex-direction: row;
+  font-family: 'PT Serif', serif;
+  font-size: 31px;
+  text-align: center;
+  font-weight: 100;
+  padding: 14px;
+  color: black;
+}
+.titleContainer {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  margin-left: -339px;
+  border-bottom: solid 1px black;
+  padding-bottom: 12px;
+}
+.titleText {
+  flex-direction: row;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  padding: 14px;
+  color: black;
+}
+.photoContainer {
+  display: flex;
+  flex-direction: column;
+}
+.rosterContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 115px;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+.playerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 321.188px;
+  height: 180.656px;
+  background-color: white;
+}
+.profile-pic {
+  width: 105px;
+  height: 145px;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+.scheduleContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 17%;
+  margin-top: 115px;
+  width: 80%;
+  height: 1000px;
+  background-color: white;
+}
+.loginText {
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  margin-left: 92%;
+  margin-top: 20px;
+}
+.start {
+  margin-left: 33%;
+}
+.progress {
+  width: 66%;
+  margin-left: 18%;
+}
+.table {}
+.template {
+  width: 50%;
+}
+.file-row {
+  width: 50%;
+  margin-left: 24%;
+}
+.scheduleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  height: 100%;
+  background-color: white;
+}
+.gameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 20px;
+  justify-content: center;
+  border: 2px solid black;
+}
+.rosterPageWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.numberStyle {
+  font-family: 'Bitter', serif;
+  margin-left: 150px;
+  font-size: 32px;
+}
+.sideRosterBar {
+  width: 17%;
+  height: 100%;
+  margin-top: 115px;
+  text-align: center;
+}
+.sideBarStyle {
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+.bioStyle {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.bioFontSize {
+  font-size: 12px;
+}
+.awayTeam {
+  margin-left: 12% font-family: 'Bitter', serif;
+  font-size: 18px;
+}
+.homeTeam {
+  font-family: 'Bitter', serif;
+  margin-right: 42%;
+  font-size: 18px;
+}
+.teamLogo {
+  max-width: 90px;
+  min-width: 90px;
+  max-height: auto;
+  min-height: auto;
+}
+.vs {
+  margin-left: -210px;
+  position: absolute;
+  left: 50%;
+  margin-top: 19px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 26px;
+}
+.statContainer {
+  margin-top: 25px;
+}
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 85px;
+  width: 90%;
+  margin-left: 5%;
+  height: 100%;
+  background-color: white;
+}
+.galleryPictures {
+  max-width: auto;
+  min-width: auto;
+  max-height: 150px;
+  min-height: 150px;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+.demoStat {
+  margin-top: 110px;
+  margin-left: 60px;
+}
+.chartWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 91px;
+  margin-left: 5%;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+}
+.myGrid {
+  width: 1200px;
+  height: 100%;
+}
+.imagesUpload {
+  margin-top: 30px;
+}
+.submitPicture {
+  width: 80px;
+}
+.photoUpload {
+  margin-top: 65px;
+margin-left: 44%;
+}

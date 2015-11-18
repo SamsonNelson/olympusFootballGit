@@ -1,0 +1,19 @@
+<div class="titleContainer">
+  <a href="#/gallery" class="titleText">Utah Utes</a>
+  <a class="titleText">|</a>
+  <a href="#/home" class="titleText">Roster</a>
+  <a class="titleText">|</a>
+  <a href="#/schedule" class="titleText">Schedule</a>
+  <a class="titleText">|</a>
+  <a href="#/stats" class="titleText">Stats</a>
+  <a class="titleText">|</a>
+  <a href="#/photos" class="titleText">Photos</a>
+</div>
+
+
+<div class="galleryContainer">
+    <div ng-repeat="image in images">
+      <img class="galleryPictures" ng-src="{{image.imageUrl}}" ng-click="addImage(image.Location)" />
+    </div>
+  </div>
+</div>
